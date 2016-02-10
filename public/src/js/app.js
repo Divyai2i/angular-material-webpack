@@ -13,6 +13,7 @@ var ngMaterial = require("angular-material");
 
 require("./HomeController");
 require("./ContactController");
+require("./AutoCompleteController");
 
 angular.module("app", [
   ngRoute,
@@ -20,7 +21,8 @@ angular.module("app", [
   ngAria,
   ngMaterial,
   "app.home",
-  "app.contact"
+  "app.contact",
+  "app.autocomplete"
 ])
 
 .config(["$routeProvider", function($routeProvider) {

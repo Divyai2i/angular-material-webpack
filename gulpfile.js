@@ -43,7 +43,7 @@ gulp.task("pack", () => {
       output : {
         filename : "bundle.js"
       },
-      watch  : false,
+      watch  : true,
       module : {
         loaders : [{
           test   : /\.css$/,
