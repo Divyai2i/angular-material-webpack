@@ -14,6 +14,7 @@ var ngMessages = require("angular-messages");
 require("./HomeController");
 require("./AutoCompleteController");
 require("./DatePickerController");
+require("./BottomSheetController");
 
 angular.module("app", [
   ngRoute,
@@ -24,7 +25,8 @@ angular.module("app", [
   ngMessages,
   "app.home",
   "app.autocomplete",
-  "app.datepicker"
+  "app.datepicker",
+  "app.bottomsheet"
 ])
 
 .config(["$routeProvider", function($routeProvider) {

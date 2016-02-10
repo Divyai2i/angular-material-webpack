@@ -20,7 +20,7 @@ $ gulp
 ### To implement
 
 - [x] Autocomplete
-- [ ] Bottom Sheet (Mobile)
+- [x] Bottom Sheet (Mobile)
 - [ ] Button (All styles)
 - [ ] Card
 - [ ] Checkbox
