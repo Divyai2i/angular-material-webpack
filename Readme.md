@@ -25,7 +25,7 @@ $ gulp
 - [ ] Card
 - [ ] Checkbox
 - [ ] Chips
-- [ ] Datepicker
+- [x] Datepicker
 - [ ] Dialog
 - [ ] Dialog with picker and inputs
 - [ ] Icon
@@ -39,4 +39,4 @@ $ gulp
 - [ ] Switch (with action)
 - [ ] Tabs
 - [ ] Toolbar (fixed top with actions)
-- [ ] Theming 
+- [ ] Theming

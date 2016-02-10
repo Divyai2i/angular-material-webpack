@@ -8,21 +8,23 @@ var angular = require("angular");
 var ngRoute = require("angular-route");
 var ngAnimate = require("angular-animate");
 var ngAria = require("angular-aria");
-
 var ngMaterial = require("angular-material");
+var ngMessages = require("angular-messages");
 
 require("./HomeController");
-require("./ContactController");
 require("./AutoCompleteController");
+require("./DatePickerController");
 
 angular.module("app", [
   ngRoute,
   ngAnimate,
   ngAria,
   ngMaterial,
+  // required for datepicker sample
+  ngMessages,
   "app.home",
-  "app.contact",
-  "app.autocomplete"
+  "app.autocomplete",
+  "app.datepicker"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
