@@ -1,0 +1,19 @@
+{
+  "quotmark" : "double",
+  "undef"    : true,
+  "unused"   : true,
+  "eqnull"   : true,
+  "node"     : true,
+  "eqeqeq"   : true,
+  "freeze"   : false,
+  "indent"   : "2",
+  "noempty"  : true,
+  "nonbsp"   : true,
+  "eqnull"   : true,
+  "laxcomma" : true,
+  "sub"      : true,
+  "supernew" : true,
+  "multistr" : true,
+  "esnext"   : true,
+  "undef"    : false
+}

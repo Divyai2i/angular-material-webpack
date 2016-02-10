@@ -1,0 +1,39 @@
+body {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.custom-bootstrap-menu {
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.250);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.250);
+}
+
+
+ol {
+  display:  none;
+}
+
+
+.btn-outline-inverse {
+  color: #000;
+  background-color: transparent;
+  border-color: #000;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .btn-outline-inverse {
+    width: auto;
+    margin: 20px 5px 20px 0;
+    padding: 18px 24px;
+    font-size: 21px;
+  }
+}
+
+.btn-outline-inverse:hover, .btn-outline-inverse:focus, .btn-outline-inverse:active {
+  color: #563d7c;
+  text-shadow: none;
+  background-color: #fff;
+  border-color: #fff;
+}
