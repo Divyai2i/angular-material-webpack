@@ -3,6 +3,7 @@
 require("../css/style.css");
 require("../css/slide-effect.css");
 require("angular-material/angular-material.css");
+require("../css/icon.css");
 
 var angular = require("angular");
 var ngRoute = require("angular-route");
@@ -15,6 +16,7 @@ require("./HomeController");
 require("./AutoCompleteController");
 require("./DatePickerController");
 require("./BottomSheetController");
+require("./IconController");
 
 angular.module("app", [
   ngRoute,
@@ -26,7 +28,8 @@ angular.module("app", [
   "app.home",
   "app.autocomplete",
   "app.datepicker",
-  "app.bottomsheet"
+  "app.bottomsheet",
+  "app.icon"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
