@@ -31,4 +31,11 @@ angular.module("app", [
 
 .config(["$routeProvider", function($routeProvider) {
   $routeProvider.otherwise({ redirectTo : "/home"});
-}]);
+}])
+
+.config(function($mdThemingProvider) {
+  $mdThemingProvider.theme('default')
+    .primaryPalette('cyan')
+    .accentPalette('green')
+    .warnPalette('red');
+});
