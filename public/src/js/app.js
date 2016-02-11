@@ -6,6 +6,7 @@ require("angular-material/angular-material.css");
 
 require("../css/icon.css");
 require("../css/input.css");
+require("../css/menu-bar.css");
 
 var angular    = require("angular");
 var ngRoute    = require("angular-route");
@@ -25,6 +26,7 @@ require("./CardController");
 require("./DialogController");
 require("./FormDialogController");
 require("./ToolbarController");
+require("./MenuBarController");
 
 
 
@@ -44,7 +46,8 @@ angular.module("app", [
   "app.card",
   "app.dialog",
   "app.formdialog",
-  "app.toolbar"
+  "app.toolbar",
+  "app.menubar"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
