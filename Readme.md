@@ -38,5 +38,5 @@ $ gulp
 - [ ] Swipe (Mobile)
 - [ ] Switch (with action)
 - [ ] Tabs
-- [ ] Toolbar (fixed top with actions)
+- [X] Toolbar (fixed top with actions)
 - [x] Theming
