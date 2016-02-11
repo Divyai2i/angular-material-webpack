@@ -21,10 +21,10 @@ $ gulp
 
 - [x] Autocomplete
 - [x] Bottom Sheet (Mobile)
-- [ ] Button (All styles)
+- [x] Button (All styles)
 - [ ] Card
-- [ ] Checkbox
-- [ ] Chips
+- [x] Checkbox
+- [x] Chips
 - [x] Datepicker
 - [ ] Dialog
 - [ ] Dialog with picker and inputs
