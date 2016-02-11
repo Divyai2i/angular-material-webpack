@@ -7,6 +7,7 @@ require("angular-material/angular-material.css");
 require("../css/icon.css");
 require("../css/input.css");
 require("../css/menu-bar.css");
+require("../css/radio.css");
 
 var angular    = require("angular");
 var ngRoute    = require("angular-route");
@@ -27,6 +28,7 @@ require("./DialogController");
 require("./FormDialogController");
 require("./ToolbarController");
 require("./MenuBarController");
+require("./RadioController");
 
 
 
@@ -47,7 +49,8 @@ angular.module("app", [
   "app.dialog",
   "app.formdialog",
   "app.toolbar",
-  "app.menubar"
+  "app.menubar",
+  "app.radio"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
