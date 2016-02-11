@@ -6,11 +6,10 @@ require("angular-material/angular-material.css");
 require("../css/icon.css");
 require("../css/input.css");
 
-//hola
-var angular  = require("angular");
-var ngRoute = require("angular-route");
-var ngAnimate = require("angular-animate");
-var ngAria = require("angular-aria");
+var angular    = require("angular");
+var ngRoute    = require("angular-route");
+var ngAnimate  = require("angular-animate");
+var ngAria     = require("angular-aria");
 var ngMaterial = require("angular-material");
 var ngMessages = require("angular-messages");
 
@@ -20,6 +19,7 @@ require("./DatePickerController");
 require("./BottomSheetController");
 require("./IconController");
 require("./InputController");
+require("./ChipsContoller");
 
 angular.module("app", [
   ngRoute,
@@ -33,7 +33,8 @@ angular.module("app", [
   "app.datepicker",
   "app.bottomsheet",
   "app.icon",
-  "app.input"
+  "app.input",
+  "app.chips"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
@@ -41,8 +42,8 @@ angular.module("app", [
 }])
 
 .config(function($mdThemingProvider) {
-  $mdThemingProvider.theme('default')
-    .primaryPalette('cyan')
-    .accentPalette('grey')
-    .warnPalette('red');
+  $mdThemingProvider.theme("default")
+    .primaryPalette("cyan")
+    .accentPalette("grey")
+    .warnPalette("red");
 });
