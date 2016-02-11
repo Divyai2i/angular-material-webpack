@@ -1,0 +1,31 @@
+<div ng-controller="ToolbarController" ng-cloak>
+  <md-content>
+    <md-toolbar >
+      <div class="md-toolbar-tools" >
+        <div layout="column" flex="40"   >
+    
+          <h2>
+            <span>Toolbar with Icon Buttons</span>
+          </h2> 
+        </div>  
+        <div layout="column" flex="60"  layout-align="center end" >
+          <h3>
+            <md-button>Home</md-button>
+            <md-menu  md-offset="0 75">
+              <md-button md-menu-origin ng-click="openMenu($mdOpenMenu, $event)">Services</md-button>
+              <md-menu-content width="3">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                  <md-button ng-click="announceClick($index)"> <span md-menu-align-target>Option</span> {{item}} </md-button>
+                </md-menu-item>
+              </md-menu-content>
+              
+            </md-menu>
+            <md-button hide-sm>Clients</md-button>
+            <md-button hide-sm>Contact</md-button>         
+          </h3>
+        </div>                                                     
+      </div>
+            
+    </md-toolbar>                   
+  </md-content>
+</div>

@@ -23,6 +23,7 @@ require("./InputController");
 require("./ChipsContoller");
 require("./CardController");
 require("./DialogController");
+require("./ToolbarController");
 
 
 
@@ -40,7 +41,8 @@ angular.module("app", [
   "app.input",
   "app.chips",
   "app.card",
-  "app.dialog"
+  "app.dialog",
+  "app.toolbar"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
