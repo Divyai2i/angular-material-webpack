@@ -30,7 +30,7 @@ $ gulp
 - [x] Dialog with picker and inputs
 - [x] Icon
 - [x] Input with validation
-- [ ] Menu Bar
+- [x] Menu Bar
 - [ ] Radio Button
 - [ ] Select (all variables)
 - [ ] Side Nav
@@ -38,5 +38,5 @@ $ gulp
 - [ ] Swipe (Mobile)
 - [ ] Switch (with action)
 - [ ] Tabs
-- [X] Toolbar (fixed top with actions)
+- [x] Toolbar (fixed top with actions)
 - [x] Theming
