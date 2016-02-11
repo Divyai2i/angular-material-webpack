@@ -3,6 +3,8 @@
 require("../css/style.css");
 require("../css/slide-effect.css");
 require("angular-material/angular-material.css");
+require("../css/icon.css");
+require("../css/input.css");
 
 //hola
 var angular  = require("angular");
@@ -16,6 +18,8 @@ require("./HomeController");
 require("./AutoCompleteController");
 require("./DatePickerController");
 require("./BottomSheetController");
+require("./IconController");
+require("./InputController");
 
 angular.module("app", [
   ngRoute,
@@ -27,9 +31,18 @@ angular.module("app", [
   "app.home",
   "app.autocomplete",
   "app.datepicker",
-  "app.bottomsheet"
+  "app.bottomsheet",
+  "app.icon",
+  "app.input"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
   $routeProvider.otherwise({ redirectTo : "/home"});
-}]);
+}])
+
+.config(function($mdThemingProvider) {
+  $mdThemingProvider.theme('default')
+    .primaryPalette('cyan')
+    .accentPalette('grey')
+    .warnPalette('red');
+});

@@ -28,7 +28,7 @@ $ gulp
 - [x] Datepicker
 - [ ] Dialog
 - [ ] Dialog with picker and inputs
-- [ ] Icon
+- [X] Icon
 - [ ] Input with validation
 - [ ] Menu Bar
 - [ ] Radio Button
