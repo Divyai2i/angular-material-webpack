@@ -29,7 +29,7 @@ $ gulp
 - [ ] Dialog
 - [ ] Dialog with picker and inputs
 - [X] Icon
-- [ ] Input with validation
+- [X] Input with validation
 - [ ] Menu Bar
 - [ ] Radio Button
 - [ ] Select (all variables)
