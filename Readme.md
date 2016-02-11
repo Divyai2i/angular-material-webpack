@@ -39,4 +39,4 @@ $ gulp
 - [ ] Switch (with action)
 - [ ] Tabs
 - [ ] Toolbar (fixed top with actions)
-- [ ] Theming
+- [x] Theming
