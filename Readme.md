@@ -27,7 +27,7 @@ $ gulp
 - [x] Chips
 - [x] Datepicker
 - [x] Dialog
-- [ ] Dialog with picker and inputs
+- [x] Dialog with picker and inputs
 - [x] Icon
 - [x] Input with validation
 - [ ] Menu Bar
