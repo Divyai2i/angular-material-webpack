@@ -31,8 +31,8 @@ $ gulp
 - [x] Icon
 - [x] Input with validation
 - [x] Menu Bar
-- [ ] Radio Button
-- [ ] Select (all variables)
+- [x] Radio Button
+- [x] Select (all variables)
 - [ ] Side Nav
 - [ ] Sub Header
 - [ ] Swipe (Mobile)

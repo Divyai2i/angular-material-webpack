@@ -29,6 +29,7 @@ require("./FormDialogController");
 require("./ToolbarController");
 require("./MenuBarController");
 require("./RadioController");
+require("./SelectController");
 
 
 
@@ -50,7 +51,8 @@ angular.module("app", [
   "app.formdialog",
   "app.toolbar",
   "app.menubar",
-  "app.radio"
+  "app.radio",
+  "app.select"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
