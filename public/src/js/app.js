@@ -30,7 +30,7 @@ angular.module("app", [
   ngRoute,
   ngAnimate,
   ngAria,
-  ngMaterial,  
+  ngMaterial,
   ngMessages,
   "app.home",
   "app.autocomplete",
@@ -49,7 +49,7 @@ angular.module("app", [
 
 .config(function($mdThemingProvider) {
   $mdThemingProvider.theme("default")
-    .primaryPalette("cyan")
-    .accentPalette("grey")
-    .warnPalette("red");
+    .primaryPalette("deep-purple")
+    .accentPalette("purple")
+    .warnPalette("deep-orange");
 });
