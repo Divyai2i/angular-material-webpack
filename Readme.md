@@ -22,13 +22,13 @@ $ gulp
 - [x] Autocomplete
 - [x] Bottom Sheet (Mobile)
 - [x] Button (All styles)
-- [ ] Card
+- [x] Card
 - [x] Checkbox
 - [x] Chips
 - [x] Datepicker
-- [ ] Dialog
+- [x] Dialog
 - [ ] Dialog with picker and inputs
-- [X] Icon
+- [x] Icon
 - [x] Input with validation
 - [ ] Menu Bar
 - [ ] Radio Button

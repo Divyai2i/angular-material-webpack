@@ -3,6 +3,7 @@
 require("../css/style.css");
 require("../css/slide-effect.css");
 require("angular-material/angular-material.css");
+
 require("../css/icon.css");
 require("../css/input.css");
 
@@ -20,13 +21,16 @@ require("./BottomSheetController");
 require("./IconController");
 require("./InputController");
 require("./ChipsContoller");
+require("./CardController");
+require("./DialogController");
+
+
 
 angular.module("app", [
   ngRoute,
   ngAnimate,
   ngAria,
-  ngMaterial,
-  // required for datepicker sample
+  ngMaterial,  
   ngMessages,
   "app.home",
   "app.autocomplete",
@@ -34,7 +38,9 @@ angular.module("app", [
   "app.bottomsheet",
   "app.icon",
   "app.input",
-  "app.chips"
+  "app.chips",
+  "app.card",
+  "app.dialog"
 ])
 
 .config(["$routeProvider", function($routeProvider) {

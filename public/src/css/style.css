@@ -37,3 +37,8 @@ ol {
   background-color: #fff;
   border-color: #fff;
 }
+
+
+.card-media {
+  background-image: url("../../src/img/fox.png");
+}
