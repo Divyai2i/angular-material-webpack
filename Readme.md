@@ -17,6 +17,7 @@ $ gulp
 
 ```
 
+
 ### To implement
 
 - [x] Autocomplete
@@ -36,7 +37,7 @@ $ gulp
 - [ ] Side Nav
 - [ ] Sub Header
 - [ ] Swipe (Mobile)
-- [ ] Switch (with action)
-- [ ] Tabs
+- [x] Switch (with action)
+- [x] Tabs
 - [x] Toolbar (fixed top with actions)
 - [x] Theming

@@ -22,6 +22,7 @@ module.exports = angular.module("app.select", [
 
   $scope.user = null;
   $scope.users = null;
+
   $scope.loadUsers = function() {
     // Use timeout to simulate a 650ms request.
     return $timeout(function() {

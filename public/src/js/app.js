@@ -30,7 +30,8 @@ require("./ToolbarController");
 require("./MenuBarController");
 require("./RadioController");
 require("./SelectController");
-
+require("./SwitchController");
+require("./TabsController");
 
 
 angular.module("app", [
@@ -52,7 +53,9 @@ angular.module("app", [
   "app.toolbar",
   "app.menubar",
   "app.radio",
-  "app.select"
+  "app.select",
+  "app.switch",
+  "app.tabs"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
