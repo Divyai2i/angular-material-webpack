@@ -17,6 +17,11 @@ module.exports = angular.module("app.toolbar", [
 
 }])
 
+.config(function($mdThemingProvider) {
+  $mdThemingProvider.theme('altTheme')
+    .primaryPalette('purple');
+})
+
 .controller("ToolbarController", function($scope) {
   var originatorEv;
   $scope.openMenu = function($mdOpenMenu, ev) {

@@ -33,6 +33,8 @@ require("./SelectController");
 require("./SwitchController");
 require("./TabsController");
 require("./SideNavController");
+require("./SubHeaderController");
+require("./SwipeController");
 
 
 angular.module("app", [
@@ -57,7 +59,9 @@ angular.module("app", [
   "app.select",
   "app.switch",
   "app.tabs",
-  "app.sidenav"
+  "app.sidenav",
+  "app.subheader",
+  "app.swipe"
 ])
 
 .config(["$routeProvider", function($routeProvider) {

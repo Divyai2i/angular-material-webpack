@@ -42,3 +42,20 @@ ol {
 .card-media {
   background-image: url("../../src/img/fox.png");
 }
+
+.subheaderdemoBasicUsage .face {
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  width: 48px;
+  margin: 16px; }
+
+
+.swipedemoBasicUsage .demo-swipe {
+  padding: 20px 10px; }
+.swipedemoBasicUsage .no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }

@@ -35,8 +35,8 @@ $ gulp
 - [x] Radio Button
 - [x] Select (all variables)
 - [x] Side Nav
-- [ ] Sub Header
-- [ ] Swipe (Mobile)
+- [x] Sub Header
+- [x] Swipe (Mobile)
 - [x] Switch (with action)
 - [x] Tabs
 - [x] Toolbar (fixed top with actions)
