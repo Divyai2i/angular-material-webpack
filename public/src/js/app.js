@@ -32,6 +32,7 @@ require("./RadioController");
 require("./SelectController");
 require("./SwitchController");
 require("./TabsController");
+require("./SideNavController");
 
 
 angular.module("app", [
@@ -55,7 +56,8 @@ angular.module("app", [
   "app.radio",
   "app.select",
   "app.switch",
-  "app.tabs"
+  "app.tabs",
+  "app.sidenav"
 ])
 
 .config(["$routeProvider", function($routeProvider) {
